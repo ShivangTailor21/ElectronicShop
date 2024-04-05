@@ -1,0 +1,130 @@
+.header
+{
+    width: 100%;
+}
+.topheader{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    background: #f6f7f8;
+}
+.icon{
+ margin-left: 20px;
+ color: #0b0b0b;
+ width: 80px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ font-size: 16px;   
+}
+.info > p{
+    margin: 10px;
+    color: #8a8a8a;
+
+}
+.header>.mid_header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 20px 40px;
+}
+.header>.mid_header > .logo > img {
+    height: 0px;
+    width: 0px;
+    object-fit: cover;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+   
+}
+.search_box > input{
+    padding: 10px 10px;
+    background: none;
+    outline: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 250px;
+    border: 1px solid #8a8a8a;
+
+}
+.search_box > button{
+    padding: 10px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    outline: none;
+    border: 1px solid #8a8a8a;
+    cursor: pointer;
+    background: black;
+    color: white;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+.search_box > button:hover {
+    background: #cd1e67;
+    border: gray    ;
+    color: black;
+}
+.last_header{
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    background: #232323;
+    justify-content: space-between;
+}
+.last_header > .user_profile{
+    display: flex;
+    margin-top: white ;
+
+}
+.last_header > .user_profile > .icon{
+    padding: 0px 0px;
+    background: #fefefe;
+    border-radius: 50%;
+}
+.user_profile > .info{
+    margin-left: 10px;
+}
+.info > h2{
+    color: #fff;
+    font-size: 18px;
+}
+.info > p{
+    color: #ababab;
+    font-size: 14px;
+}
+.nav > ul{
+    display: flex;
+}
+.nav > ul > li{
+    list-style: none;
+}
+.nav > ul > li > .Link{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    transition: 0.5s;
+}
+.nav > ul > li > .Link:hover{
+    color: yellow;
+}
+.header > .last_header >.offer{
+    margin-right: 20px;
+    padding: 10px 10px;
+    background: yellow;
+    border-radius: 10px;
+   
+}
+.header > .last_header >.offer > p{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #232323;
+    font-size: 14px;
+    text-align: center;
+}
+
