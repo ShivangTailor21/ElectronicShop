@@ -7,7 +7,7 @@ import About from './about'
 import Contact from './contact'
 
 
-const Rout = ({shop , Filter , allcatefilter,addtocart,cart , setcart , contact}) => {
+const Rout = ({shop , Filter , allcatefilter,addtocart,cart , setcart , contact,checkout}) => {
   return (
     <>
         <Routes>
@@ -15,6 +15,7 @@ const Rout = ({shop , Filter , allcatefilter,addtocart,cart , setcart , contact}
             <Route path='cart' element = {<Cart cart={cart} setcart={setcart}/>} />
             <Route path='shop' element={<Shop shop={shop} Filter ={Filter} allcatefilter={allcatefilter} addtocart={addtocart} />} />
             <Route path='contact' element={< Contact contact={contact}/>} />
+            <Route path='checkout' element={<checkout checkout={checkout}/>} />
         </Routes>
     </>
   )
